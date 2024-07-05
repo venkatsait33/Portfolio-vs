@@ -1,12 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import Certificates from "./components/Certificates";
-import ContactForm from "./components/ContactForm";
+import { About, Certificates, ContactForm, Footer, Home, NavBar, Portfolio } from "./components";
+
 
 function App() {
   return (
