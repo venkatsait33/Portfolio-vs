@@ -1,3 +1,5 @@
+import web_dev from '../assets/web-dev.jpg'
+
 const Certificates = () => {
   return (
     <div className="flex items-center justify-center w-100 h-100">
@@ -9,11 +11,7 @@ const Certificates = () => {
           <p>HTML5,CSS3,JAVASCRIPT</p>
         </div>
         <figure>
-          <img
-            src="/src/assets/web-dev.jpg"
-                      alt="Web-Development-certificate"
-                      className=""
-          />
+          <img src={web_dev} alt="Web-Development-certificate" className="" />
         </figure>
       </div>
     </div>
