@@ -25,7 +25,7 @@ const Education = () => {
             <pre className="text-lg font-semibold " data-prefix=">">
               &nbsp;Diploma
             </pre>
-            <pre className="flex mx-auto max-[560px]:flex-wrap place-content-between p-1 m-1">
+            <pre className="flex max-[560px]:flex-wrap max-[560px]:mx-auto max-[560px]:place-content-between p-1 m-1">
               <span className="max-[560px]:text-[20px] max-[560px]:ml-2">
                 Percentage:68.3
               </span>{" "}
@@ -43,8 +43,8 @@ const Education = () => {
             <pre className="text-lg font-semibold " data-prefix=">">
               &nbsp; SSC
             </pre>
-            <pre className="flex mx-auto max-[560px]:flex-wrap place-content-between p-1 m-1">
-              <span>CGPA:7.3</span>&nbsp;{" "}
+            <pre className="flex max-[560px]:flex-wrap max-[560px]:mx-auto max-[560px]:place-content-between p-1 m-1">
+              <span>CGPA:7.3</span>&nbsp;
               <span className="max-[560px]:text-[15px] max-[560px]:ml-2">
                 Year of Passing:2014
               </span>{" "}

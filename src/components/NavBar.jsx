@@ -47,7 +47,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex justify-center space-x-5 max-[560px]:space-x-3 text-center place-items-center navbar bg-base-100 ">
+    <div className="flex justify-center space-x-5  max-[560px]:p-5 text-center place-items-center navbar bg-base-100 ">
       <div className="flex space-x-5 max-[560px]:space-x-2 max-[560px]:text-base text-xl place-items-center  ">
         {links.map((link, i) => (
           <div key={i} className={activeLink === link.path ? "active" : ""}>

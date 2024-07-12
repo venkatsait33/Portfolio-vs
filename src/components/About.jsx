@@ -25,13 +25,13 @@ const About = () => {
           &nbsp;
           <BiMobile /> +91 8184804933
         </p>
-        <p className="flex items-center gap-1 text-lg">
+        <p className="flex flex-wrap items-center gap-1 text-lg">
           &nbsp;
           <FaAddressBook /> Jaggayyapet, NTR Krishna<small>(dt)</small>, Andhra
           Pradesh, India - &nbsp; 521175
         </p>
 
-        <p className="p-2 mb-2 text-base tracking-wider">
+        <p className="p-2 mb-2 text-base tracking-wider ">
           I &apos; m T.VenkataSai, a Frontend Developer with a passion for
           creating visually stunning and user-friendly web applications. With a
           solid foundation in HTML, CSS, JavaScript, and React, I am dedicated
