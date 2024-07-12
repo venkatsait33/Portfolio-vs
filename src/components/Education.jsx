@@ -5,33 +5,53 @@ const Education = () => {
         <p className="text-xl tracking-widest text-center text-purple-200 uppercase">
           Education
         </p>
-        <ul className="flex flex-wrap gap-3">
+        <ul className="flex flex-col gap-3">
           <li className="flex flex-col gap-2">
             <pre className="text-lg font-semibold " data-prefix=">">
               &nbsp; B.TECH
             </pre>
-            <pre className="flex place-content-between">
-              <span>CGPA:7.13</span> &nbsp;<span>Year of Passing:2022</span> &nbsp;
-              <span>GIET Engineering collage,Rajahmundary,AP</span>
+            <pre className="flex max-[560px]:flex-wrap max-[560px]:mx-auto max-[560px]:place-content-between p-1 m-1">
+              <span>CGPA:7.13</span> &nbsp;
+              <span className="max-[560px]:text-[15px] max-[560px]:ml-2">
+                Year of Passing:2022
+              </span>{" "}
+              &nbsp;
+              <span className="max-[560px]:text-[15px] max-[560px]:ml-6">
+                GIET Engineering collage,Rajahmundary,AP
+              </span>
             </pre>
           </li>
-          <li>
+          <li className="flex flex-col gap-2">
             <pre className="text-lg font-semibold " data-prefix=">">
               &nbsp;Diploma
             </pre>
-            <pre className="flex place-content-between">
-              <span>Percentage:68.3</span> &nbsp; <span>Year of Passing:2018</span> &nbsp;
-              <span>Mandava Institute of Engg & Tech,Jaggayyapet,Ap </span>
+            <pre className="flex mx-auto max-[560px]:flex-wrap place-content-between p-1 m-1">
+              <span className="max-[560px]:text-[20px] max-[560px]:ml-2">
+                Percentage:68.3
+              </span>{" "}
+              &nbsp;
+              <span className="max-[560px]:text-[15px] max-[560px]:ml-2">
+                Year of Passing:2018
+              </span>{" "}
+              &nbsp;
+              <span className="max-[560px]:text-[15px] max-[560px]:ml-6">
+                Mandava Institute of Engg & Tech,Jaggayyapet,Ap
+              </span>
             </pre>
           </li>
-          <li>
+          <li className="flex flex-col gap-2">
             <pre className="text-lg font-semibold " data-prefix=">">
               &nbsp; SSC
             </pre>
-            <pre className="flex place-content-between">
-              <span>CGPA:7.3</span>&nbsp; <span>Year of Passing:2014</span>{" "}
+            <pre className="flex mx-auto max-[560px]:flex-wrap place-content-between p-1 m-1">
+              <span>CGPA:7.3</span>&nbsp;{" "}
+              <span className="max-[560px]:text-[15px] max-[560px]:ml-2">
+                Year of Passing:2014
+              </span>{" "}
               &nbsp;
-              <span>SSS Model School,Penuganchiprolu,AP</span>
+              <span className="max-[560px]:text-[15px] max-[560px]:ml-6">
+                SSS Model School,Penuganchiprolu,AP
+              </span>
             </pre>
           </li>
         </ul>
