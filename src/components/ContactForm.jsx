@@ -122,7 +122,7 @@ const ContactForm = () => {
                     type="submit"
                     className="inline-block w-full px-4 py-4 btn"
                   >
-                    Send Message
+                   Contact Me
                   </button>
                 </div>
                 <p
