@@ -1,63 +1,96 @@
+import css3 from "../assets/icons/css3.png";
+import firebase from "../assets/icons/firebase.png";
+import github from "../assets/icons/github.png";
+import html5 from "../assets/icons/html-5.png";
+import js from "../assets/icons/js.png";
+import react from "../assets/icons/react.png";
+import redux from "../assets/icons/redux.png";
+import tailwind from "../assets/icons/tailwind.png";
+import dasiui from '../assets/icons/dasiui.png';
+
+const skill = [
+  {
+    icon: react,
+    name: "React JS",
+  },
+  {
+    icon: js,
+    name: "JavaScript",
+  },
+  {
+    icon: html5,
+    name: "HTML5",
+  },
+  {
+    icon: css3,
+    name: "CSS3",
+  },
+  {
+    icon: tailwind,
+    name: "Tailwind CSS",
+  },
+  {
+    icon: github,
+    name: "Github",
+  },
+];
+
+const exposed = [
+  {
+    icon: firebase,
+    name: "Firebase",
+  }, {
+    icon: redux,
+    name: "Redux",
+  }, {
+    icon: dasiui,
+    name: "DaisyUI",
+  }
+]
+
 const Skills = () => {
   return (
     <div>
       <div className="flex flex-col gap-2 p-2 m-2 mockup-code">
         <p className="mb-2 text-xl tracking-widest text-center text-purple-200 uppercase">
-         Coding Skills & tools
+          Coding Skills & tools
         </p>
         <ul className="grid grid-cols-2 max-[560px]:grid-cols-1">
-          <li>
-            <pre className="text-2xl font-semibold " data-prefix=">">
-              &nbsp; REACTJS
-            </pre>
-          </li>
-
-          <li>
-            <pre data-prefix=">" className="text-2xl font-semibold ">
-              &nbsp; JAVASCRIPT
-            </pre>
-          </li>
-          <li>
-            <pre data-prefix=">" className="text-2xl font-semibold ">
-              &nbsp; HTML5
-            </pre>
-          </li>
-          <li>
-            <pre data-prefix=">" className="text-2xl font-semibold ">
-              &nbsp; CSS3
-            </pre>
-          </li>
-          <li>
-            {" "}
-            <pre data-prefix=">" className="text-2xl font-semibold ">
-              &nbsp; GITHUB
-            </pre>
-          </li>
-          <li>
-            <pre data-prefix=">" className="mb-10 text-2xl font-semibold ">
-              &nbsp; TAILWINDCSS
-            </pre>
-          </li>
+          {skill.map((item) => (
+            <li key={item.name} className="">
+              <pre
+                className="flex gap-2 p-2 text-2xl font-semibold place-items-center "
+                data-prefix=">"
+              >
+                <img
+                  src={item.icon}
+                  alt={item.name}
+                  className="object-contain w-10 h-10 rounded-full"
+                />
+                <p className="ml-2 text-lg font-semibold">{item.name}</p>
+              </pre>
+            </li>
+          ))}
         </ul>
         <p className="text-xl tracking-widest text-center text-purple-200 uppercase">
           exposed to
         </p>
         <ul className="grid grid-cols-2 max-[560px]:grid-cols-1">
-          <li>
-            <pre data-prefix=">" className="text-2xl font-semibold ">
-              &nbsp; Firebase
-            </pre>
-          </li>
-          <li>
-            <pre data-prefix=">" className="text-2xl font-semibold ">
-              &nbsp; Redux
-            </pre>
-          </li>
-          <li>
-            <pre data-prefix=">" className="mb-10 text-2xl font-semibold">
-              &nbsp; daisyui
-            </pre>
-          </li>
+          {exposed.map((item) => (
+            <li key={item.name} className="">
+              <pre
+                className="flex gap-2 p-2 text-2xl font-semibold place-items-center "
+                data-prefix=">"
+              >
+                <img
+                  src={item.icon}
+                  alt={item.name}
+                  className="object-contain w-10 h-10 rounded-full"
+                />
+                <p className="ml-2 text-lg font-semibold">{item.name}</p>
+              </pre>
+            </li>
+          ))}
         </ul>
       </div>
     </div>
