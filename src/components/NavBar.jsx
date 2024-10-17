@@ -58,13 +58,17 @@ const NavBar = () => {
             >
               <li>
                 {!link.type && (
-                  <p style={{ padding: "0.5rem 0" }}>{link.label}</p>
+                  <p style={{ padding: "0.5rem 0" }} className="max-sm:text-sm">
+                    {link.label}
+                  </p>
                 )}
               </li>
 
               <li>
                 {link.type && (
-                  <h1 className="text-2xl font-bold">{link.label}</h1>
+                  <h1 className="text-2xl font-bold max-sm:text-sm">
+                    {link.label}
+                  </h1>
                 )}
               </li>
             </Link>

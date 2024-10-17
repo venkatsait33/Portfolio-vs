@@ -27,7 +27,7 @@ const ContactForm = () => {
   };
   return (
     <div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center m-2 border-2 rounded-lg shadow-md">
         <div className="container mx-auto">
           <div className="max-w-md p-5 mx-auto my-10 rounded-md shadow-sm">
             <div className="text-center">

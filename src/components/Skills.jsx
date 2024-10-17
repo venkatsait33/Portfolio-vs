@@ -51,8 +51,8 @@ const exposed = [
 const Skills = () => {
   return (
     <div>
-      <div className="flex flex-col gap-2 p-2 m-2 mockup-code">
-        <p className="mb-2 text-xl tracking-widest text-center text-purple-200 uppercase">
+      <div className="flex flex-col gap-2 p-2 m-2 mockup-code ">
+        <p className="mb-2 text-xl tracking-widest text-center text-purple-200 uppercase max-sm:text-sm">
           Coding Skills & tools
         </p>
         <ul className="grid grid-cols-2 max-[560px]:grid-cols-1">
@@ -65,9 +65,11 @@ const Skills = () => {
                 <img
                   src={item.icon}
                   alt={item.name}
-                  className="object-contain w-10 h-10 rounded-full"
+                  className="object-contain w-10 h-10 rounded-full max-sm:w-8 max-sm:h-8"
                 />
-                <p className="ml-2 text-lg font-semibold">{item.name}</p>
+                <p className="ml-2 text-lg font-semibold max-sm:text-sm">
+                  {item.name}
+                </p>
               </pre>
             </li>
           ))}
@@ -85,9 +87,11 @@ const Skills = () => {
                 <img
                   src={item.icon}
                   alt={item.name}
-                  className="object-contain w-10 h-10 rounded-full"
+                  className="object-contain w-10 h-10 rounded-full max-sm:w-8 max-sm:h-8"
                 />
-                <p className="ml-2 text-lg font-semibold">{item.name}</p>
+                <p className="ml-2 text-lg font-semibold max-sm:text-sm">
+                  {item.name}
+                </p>
               </pre>
             </li>
           ))}

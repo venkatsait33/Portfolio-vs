@@ -1,8 +1,8 @@
-import  movieapp  from "./assets/movieapp.png";
-import  tic_tac  from "./assets/tic-tac-toe.png";
-
+import movieapp from "./assets/movieapp.png";
+import tic_tac from "./assets/tic-tac-toe.png";
+import apod from "../src/assets/Screenshot 2024-07-03 115729.png";
+import home_store from '../src/assets/Screenshot 2024-07-16 174050.png'
 export const info = {
-  
   portfolio: [
     {
       title: "Movie-Tv-Database-Application",
@@ -16,8 +16,7 @@ export const info = {
       title: "APOD-NASA",
       description:
         "Astronomy Picture of the Day (APOD) viewer using ReactJS and TailwindCSS. This application fetches stunning daily images from NASA's APOD API and presents them in a user-friendly and visually appealing interface.",
-      image:
-        "https://media.licdn.com/dms/image/D5622AQGgcGNYKIj1Cw/feedshare-shrink_800/0/1719988605998?e=1723075200&v=beta&t=tZDn4bcocacM-7F2bkWeSgAWXUyVJhy_j1kZ94GKWqY",
+      image: apod,
       demo: "https://apod-nasa-project.vercel.app/",
       code: "https://github.com/venkatsait33/APOD_NASA_Project.git",
     },
@@ -33,8 +32,7 @@ export const info = {
       title: "Home-Space-Store!",
       description:
         "Home-Space-Store is an e-commerce website that offers a wide range of home decor products. With a user-friendly interface and a variety of products to choose from, Home-Space-Store makes it easy for customers to find the perfect home decor items for their space.",
-      image:
-        "https://media.licdn.com/dms/image/D5622AQH8v-8nqD1ewQ/feedshare-shrink_2048_1536/0/1721132428572?e=1724284800&v=beta&t=y4-F_CgVikDNC9cxhIfCyuJLpkaSjy71HovAfkMmr1s",
+      image: home_store,
       demo: "https://home-space-store.vercel.app/",
       code: "https://github.com/venkatsait33/Home-Space-Store/tree/repository",
     },
