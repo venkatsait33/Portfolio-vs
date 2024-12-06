@@ -41,14 +41,14 @@ const NavBar = () => {
   };
 
   const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
+    const newTheme = theme === "dark" ? "light" : "dark";
     setTheme(newTheme);
     document.documentElement.setAttribute("data-theme", newTheme);
   };
 
   return (
     <div className="flex justify-center space-x-5  max-[560px]:p-5 text-center place-items-center navbar bg-base-100 ">
-      <div className="flex space-x-5 max-[560px]:space-x-2 max-[560px]:text-base text-xl place-items-center  ">
+      <div className="flex space-x-8 max-[560px]:space-x-2 max-[560px]:text-base text-xl place-items-center  ">
         {links.map((link, i) => (
           <div key={i} className={activeLink === link.path ? "active" : ""}>
             <Link

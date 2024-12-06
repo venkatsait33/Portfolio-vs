@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div
       className=" max-[560px]:w-[90%] max-[560px]:text-xl max-[560px]:leading-8 max-[560px]:p-2 max-[560px]:m-2 
-    max-[970px]:w-[90%] "
+    max-[970px]:w-[90%] w-full  flex flex-col gap-2 p-2 m-2 "
     >
       <ul className="flex flex-col gap-2 p-2 m-2 mockup-code">
         <li className="text-xl tracking-widest text-center text-purple-200 uppercase">

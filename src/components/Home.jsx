@@ -1,6 +1,7 @@
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import cv from "../assets/cv.png";
 import { Link } from "react-router-dom";
+import TechnicalSkills from "./TechnicalSkills";
 const Home = () => {
   return (
     <div>
@@ -27,7 +28,7 @@ const Home = () => {
               </li>
             </ul>
 
-            <ul className="grid grid-cols-3 p-3 mt-10 place-items-center">
+            <ul className="flex items-center justify-center p-3 mx-auto mt-10 gap-14 place-items-center">
               <li>
                 <a href="https://github.com/venkatsait33" target="_blank">
                   <FaGithubSquare className="w-8 h-8 duration-300 text-slate-500 hover:text-black" />
@@ -42,16 +43,22 @@ const Home = () => {
                   <FaLinkedin className="w-8 h-8 duration-300 text-slate-500 hover:text-black" />
                 </a>
               </li>
-
-              <li>
-                <a href="#">
-                  <FaTwitterSquare className="w-8 h-8 duration-300 text-slate-500 hover:text-black" />
-                </a>
-              </li>
             </ul>
-            <Link to="/contactForm" className="mt-5 btn">
-              Contact Me
-            </Link>
+            <div>
+              <TechnicalSkills />
+            </div>
+            <div className="flex items-center justify-center gap-6">
+              <Link to="/contactForm" className="mt-5 btn">
+                Contact Me
+              </Link>
+
+              <a href="https://docs.google.com/document/d/19-TcXveol84b173slatmY_u60v9JHY7JYyKqZE33adA/edit?usp=sharing" target="_blank"
+                className="mt-5 btn">
+                view Resume
+              </a>
+            </div>
+
+
           </article>
           <article className="w-[100%] max flex items-center justify-center text-center">
             <img

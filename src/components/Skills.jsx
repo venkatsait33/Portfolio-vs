@@ -33,9 +33,6 @@ const skill = [
     icon: github,
     name: "Github",
   },
-];
-
-const exposed = [
   {
     icon: firebase,
     name: "Firebase",
@@ -46,7 +43,8 @@ const exposed = [
     icon: dasiui,
     name: "DaisyUI",
   }
-]
+];
+
 
 const Skills = () => {
   return (
@@ -55,12 +53,12 @@ const Skills = () => {
         <p className="mb-2 text-xl tracking-widest text-center text-purple-200 uppercase max-sm:text-sm">
           Coding Skills & tools
         </p>
-        <ul className="grid grid-cols-2 max-[560px]:grid-cols-1">
+        <ul className="grid grid-cols-5 max-[560px]:grid-cols-2 gap-3 mx-auto">
           {skill.map((item) => (
             <li key={item.name} className="">
               <pre
-                className="flex gap-2 p-2 text-2xl font-semibold place-items-center "
-                data-prefix=">"
+                className="flex gap-2 p-2 w-[150px] text-2xl font-semibold  shadow-2xl card place-items-center "
+                data-prefix=""
               >
                 <img
                   src={item.icon}
@@ -75,27 +73,9 @@ const Skills = () => {
           ))}
         </ul>
         <p className="text-xl tracking-widest text-center text-purple-200 uppercase">
-          exposed to
+
         </p>
-        <ul className="grid grid-cols-2 max-[560px]:grid-cols-1">
-          {exposed.map((item) => (
-            <li key={item.name} className="">
-              <pre
-                className="flex gap-2 p-2 text-2xl font-semibold place-items-center "
-                data-prefix=">"
-              >
-                <img
-                  src={item.icon}
-                  alt={item.name}
-                  className="object-contain w-10 h-10 rounded-full max-sm:w-8 max-sm:h-8"
-                />
-                <p className="ml-2 text-lg font-semibold max-sm:text-sm">
-                  {item.name}
-                </p>
-              </pre>
-            </li>
-          ))}
-        </ul>
+
       </div>
     </div>
   );

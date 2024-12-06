@@ -6,7 +6,7 @@ import { About, Certificates, ContactForm, Footer, Home, NavBar, Portfolio } fro
 function App() {
   return (
     <>
-      <div className="flex flex-col items-center h-screen max-w-screen-lg p-2 m-1 mx-auto justify-evenly w-100">
+      <div className="flex flex-col items-center h-screen max-w-screen-xl p-2 m-1 mx-auto justify-evenly w-100">
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
