@@ -45,7 +45,7 @@ const TechnicalSkills = () => {
     return (
         <div>
             <div className="flex flex-col gap-2 p-2 m-2 ">
-                <p className="mb-2 text-xl tracking-widest text-center text-purple-200 uppercase max-sm:text-sm">
+                <p className="mb-2 text-xl tracking-widest uppercase text-cent max-sm:text-sm">
                     Technology
                 </p>
                 <ul className="grid grid-cols-3 max-lg:grid-cols-2 max-[560px]:grid-cols-2 gap-3 mx-auto">
