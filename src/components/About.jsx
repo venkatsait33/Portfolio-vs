@@ -38,8 +38,6 @@ const About = () => {
           to delivering high-quality code that exceeds expectations.
         </p>
       </ul>
-
-      <Skills />
       <Education />
     </div>
   );

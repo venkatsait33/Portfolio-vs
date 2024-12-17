@@ -5,10 +5,10 @@ const Education = () => {
         <p className="text-xl tracking-widest text-center text-purple-200 uppercase max-sm:text-base">
           Education
         </p>
-        <ul className="grid grid-cols-2 gap-3 max-sm:grid-cols-1">
-          <li className="flex flex-col gap-1 p-4 shadow-2xl card ">
+        <ul className="grid grid-cols-1 gap-4 max-sm:grid-cols-1 ">
+          <li className="flex flex-col gap-1 p-4 shadow-2xl card h-[250px] border-2 border-purple-200 ">
             <p
-              className="text-lg font-semibold text-center max-sm:text-base"
+              className="mt-4 text-lg font-semibold text-center max-sm:text-base"
               data-prefix=""
             >
               &nbsp; B.TECH
@@ -24,8 +24,8 @@ const Education = () => {
               </p>
             </div>
           </li>
-          <li className="flex flex-col gap-1 shadow-2xl max-sm:text-sm card">
-            <p className="text-lg font-semibold text-center max-sm:text-base " data-prefix="">
+          <li className="flex flex-col gap-1 shadow-2xl max-sm:text-sm card h-[250px] border-2 border-purple-200">
+            <p className="mt-4 text-lg font-semibold text-center max-sm:text-base " data-prefix="">
               &nbsp;Diploma
             </p>
             <div className="flex flex-col gap-1 max-[560px]:flex-wrap max-[560px]:mx-auto  max-[560px]:place-content-between p-1 m-1 text-center">
@@ -42,10 +42,9 @@ const Education = () => {
               </p>
             </div>
           </li>
-          <li className="flex flex-col gap-1 shadow-2xl card">
+          <li className="flex flex-col gap-1 shadow-2xl card h-[250px] border-2 border-purple-200">
             <p
-              className="text-lg font-semibold text-center max-sm:text-base "
-              data-prefix=">"
+              className="mt-4 text-lg font-semibold text-center max-sm:text-base "            
             >
               &nbsp; SSC
             </p>

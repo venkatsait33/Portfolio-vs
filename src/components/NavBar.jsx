@@ -12,11 +12,6 @@ const links = [
     label: "About",
     path: "/about",
   },
-
-  {
-    label: "Portfolio",
-    path: "/portfolio",
-  },
   {
     label: "VS",
     type: "name",
@@ -47,8 +42,8 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex justify-center space-x-5  max-[560px]:p-5 text-center place-items-center navbar bg-base-100 ">
-      <div className="flex space-x-8 max-[560px]:space-x-2 max-[560px]:text-base text-xl place-items-center  ">
+    <div className="flex justify-center space-x-6 mx-auto  max-[560px]:p-5 text-center place-items-center navbar bg-base-100 ">
+      <div className="flex space-x-10 max-[560px]:space-x-2 max-[560px]:text-base text-xl place-items-center  ">
         {links.map((link, i) => (
           <div key={i} className={activeLink === link.path ? "active" : ""}>
             <Link

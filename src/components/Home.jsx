@@ -3,6 +3,7 @@ import cv from "../assets/cv.png";
 import { Link } from "react-router-dom";
 import TechnicalSkills from "./TechnicalSkills";
 import certificate from '../assets/Certificate of Completion - Tumma Venkata Sai (1)_page-0001.jpg'
+import Portfolio from "./Portfolio";
 const Home = () => {
   return (
     <div>
@@ -31,8 +32,8 @@ const Home = () => {
 
             <ul className="flex items-center justify-center p-3 mx-auto mt-10 gap-14 place-items-center">
               <li>
-                <a href="https://github.com/venkatsait33" target="_blank">
-                  <FaGithubSquare className="w-8 h-8 duration-300 text-slate-500 hover:text-black" />
+                <a href="https://github.com/venkatsait33" target="_blank" className=" tooltip" data-tip="Git-Hub">
+                  <FaGithubSquare className="w-8 h-8 duration-300 text-slate-500 " />
                 </a>
               </li>
 
@@ -40,8 +41,9 @@ const Home = () => {
                 <a
                   href="https://www.linkedin.com/in/venkatsai-t/"
                   target="_blank"
+                  className=" tooltip" data-tip="LinkedIn"
                 >
-                  <FaLinkedin className="w-8 h-8 duration-300 text-slate-500 hover:text-black" />
+                  <FaLinkedin className="w-8 h-8 duration-300 text-slate-500 " />
                 </a>
               </li>
             </ul>
@@ -71,7 +73,7 @@ const Home = () => {
           </article>
 
         </div>
-        
+
       </div>
       <div className="p-2 m-2">
         <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Internship</h1>
@@ -79,13 +81,13 @@ const Home = () => {
           <figure className="lg:w-[50%]">
             <img
               src={certificate}
-              alt="ReactJS-certificate"
+              alt="Internship-certificate"
               className="p-4 mb-2 rounded-lg "
             />
           </figure>
           <div className="card-body lg:w-[50%] ">
             <h2 className="card-title">Web Development Intern</h2>
-            <p> Zummit Infolabs!</p>
+            <p> Zummit Infolabs</p>
             <p>JULY 2024 - DEC 2024 </p>
             <p className="">
               Worked as a Web Development Intern at Zummit Infolabs for 6 months, contributing to the development of a Blogs Page based on Figma designs. Utilized ReactJS, TailwindCSS, DaisyUI, and Firebase for user authentication and data storage, with deployment on Vercel. Gained hands-on experience with Agile methodology, team collaboration, and delivering high-quality web solutions. This experience sharpened my technical and professional skills while enhancing my understanding of UI/UX-focused development.
@@ -94,6 +96,10 @@ const Home = () => {
 
         </div>
 
+      </div>
+      <div className="p-2 m-2">
+        <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Project</h1>
+        <Portfolio />
       </div>
     </div>
   );

@@ -48,7 +48,7 @@ const TechnicalSkills = () => {
                 <p className="mb-2 text-xl tracking-widest uppercase text-cent max-sm:text-sm">
                     Technology
                 </p>
-                <ul className="grid grid-cols-3 max-lg:grid-cols-2 max-[560px]:grid-cols-2 gap-3 mx-auto">
+                <ul className="grid grid-cols-3 max-lg:grid-cols-2 max-[560px]:grid-cols-2 lg:gap-5 gap-3 mx-auto">
                     {skill.map((item) => (
                         <li key={item.name} className="">
                             <p

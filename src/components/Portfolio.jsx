@@ -5,13 +5,13 @@ import { BsBrowserEdge } from "react-icons/bs";
 const Portfolio = () => {
   return (
     <div
-      className="grid grid-cols-2
+      className="grid mx-auto max-md:grid-cols-2 lg:grid-cols-3 max-lg:grid-cols-3
       max-[960px]:w-[90%] gap-10 mt-5  max-[560px]:grid-cols-1 mb-10"
     >
       {info.portfolio.map((item, index) => (
         <div
           key={index}
-          className="shadow-xl card card-compact bg-base-100 w-96 max-[990px]:w-80"
+          className="shadow-xl card card-compact bg-base-100 w-96 max-[990px]:w-80  duration-100 transform hover:scale-105"
         >
           <figure>
             <img
@@ -30,7 +30,7 @@ const Portfolio = () => {
               <a
                 href={item.demo}
                 target="_blank"
-                className="border border-gray-700 hover:text-white btn"
+                className="border border-gray-700 hover:text-black dark:hover:text-white btn"
               >
                 <p className="flex gap-2">
                   <span>
@@ -42,7 +42,7 @@ const Portfolio = () => {
               <a
                 href={item.code}
                 target="_blank"
-                className="border border-gray-700 btn hover:text-white"
+                className="border border-gray-700 btn hover:text-black dark:hover:text-white"
               >
                 <p className="flex gap-2">
                   <span>
