@@ -2,7 +2,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa6";
 import { RiTailwindCssFill, RiFirebaseFill } from "react-icons/ri";
-import { SiRedux, SiDaisyui } from "react-icons/si";
+import { SiRedux, SiDaisyui, SiVitest } from "react-icons/si";
 
 const skill = [
     {
@@ -38,6 +38,9 @@ const skill = [
     }, {
         icon: <SiDaisyui />,
         name: "DaisyUI",
+    },{
+        icon:<SiVitest/>,
+        name:"Vitest"
     }
 ];
 

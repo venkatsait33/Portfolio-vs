@@ -1,6 +1,5 @@
 import { MdMail } from "react-icons/md";
 import Education from "./Education";
-import Skills from "./Skills";
 import { FaAddressBook } from "react-icons/fa";
 import { BiMobile } from "react-icons/bi";
 

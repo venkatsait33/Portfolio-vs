@@ -11,7 +11,7 @@ export const info = {
       description: "Showcasing our published research and advancements in biotransformation, focused on clean and green chemistry. Explore innovative solutions driving sustainable progress in eco-friendly chemical processes.",
       image: quantzime,
       demo: "https://quantumzyme-blogs.vercel.app/",
-      code:"https://github.com/venkatsait33/quantumzymeBlogs.git",
+      code: "https://github.com/venkatsait33/quantumzymeBlogs.git",
     },
     {
       title: "Ai-Resume Builder",
@@ -28,14 +28,6 @@ export const info = {
       image: home_store,
       demo: "https://home-space-store.vercel.app/",
       code: "https://github.com/venkatsait33/Home-Space-Store/tree/repository",
-    },    
-    {
-      title: "Movie-Tv-Database-Application",
-      description:
-        "MovieApp, a comprehensive platform designed to provide detailed information about movies, TV series, and famous personalities. Whether you're a movie buff, a TV series binge-watcher, or just curious about your favorite actors, MovieApp offers a rich and engaging experience. Discover the latest releases, popular shows, and the most renowned actors in the industry. Dive into the world of cinema and entertainment with MovieApp, where every detail is meticulously curated to satisfy your movie and TV series cravings.",
-      image: movieapp,
-      demo: " https://movie-tv-database-app.vercel.app/",
-      code: "https://github.com/venkatsait33/Movie_Tv_Database_App.git",
     },
     {
       title: "APOD-NASA",
@@ -53,7 +45,7 @@ export const info = {
       demo: "https://tic-tac-toe-cell-size-according-input-value.vercel.app/",
       code: "https://github.com/venkatsait33/Tic-Tac-toe_Cell_size_according_inputValue.git",
     },
-   
+
     // Add more projects here...
   ],
 };

@@ -10,7 +10,7 @@ const Home = () => {
       <div className="flex px-5 mt-2 mb-2 sm:flex-wrap " id="title">
         <div className="grid grid-cols-2 mt-2 mb-4 max-[560px]:grid-cols-1 max-[560px]:place-items-center">
           <article className="p-10 text-center max-[560px]:w-full  justify-center items-center">
-            <h1 className="text-xl flex flex-wrap gap-2 place-items-center font-medium tracking-wide max-[560px]:text-3xl">
+            <h1 className="text-2xl flex flex-wrap gap-4 place-items-center font-medium tracking-wide max-[560px]:text-3xl">
               Hi, I &apos;m{" "}
               <span className="text-3xl animate-charcter text-slate-500">
                 T Venkata Sai
