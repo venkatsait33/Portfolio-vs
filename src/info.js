@@ -4,6 +4,7 @@ import apod from "../src/assets/Screenshot 2024-07-03 115729.png";
 import home_store from '../src/assets/Screenshot 2024-07-16 174050.png'
 import quantzime from "../src/assets/quantzime.png"
 import resume from '../src/assets/ai-resume.png'
+import crypto from '../src/assets/crypto-pic.png'
 export const info = {
   portfolio: [
     {
@@ -28,6 +29,14 @@ export const info = {
       image: home_store,
       demo: "https://home-space-store.vercel.app/",
       code: "https://github.com/venkatsait33/Home-Space-Store/tree/repository",
+    },
+    {
+      title: "Capico: Your Gateway to Smarter Crypto Trading Platform ",
+      description:
+        "Developed a responsive crypto trading platform powered by intelligent bots and smart seals, ensuring secure and seamless trading experiences. Key contributions include Features Automated trading, enhanced security, integration with top crypto platforms, and user-friendly onboarding. Tech Stack React, TailwindCSS, DaisyUI, React Router DOM, deployed on Vercel, code hosted on GitHub. Delivered a modern UI and optimized performance for beginners and pro traders alike.",
+      image: crypto,
+      demo: "https://crypto-trading-platform-eight.vercel.app/",
+      code: "https://github.com/venkatsait33/Crypto-trading-platform.git",
     },
     {
       title: "APOD-NASA",

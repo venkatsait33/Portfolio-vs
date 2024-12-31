@@ -24,8 +24,8 @@ const Portfolio = () => {
                   className="object-scale-down w-full p-2 rounded-xl"
                 />
               </figure>
-              <div className="card-body ">
-                <h2 className="flex justify-center card-title">{item.title}</h2>
+              <div className=" card-body">
+                <h2 className="flex justify-center mt-10 card-title">{item.title}</h2>
                 <p>{item.description}</p>
                 <div>
                   <div className="justify-evenly card-actions ">
